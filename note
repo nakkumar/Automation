@@ -1,3 +1,35 @@
+web automation
+***************
+step1: install python
+
+step2: install pip (windows)
+  
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py --> run the command on python install location like(C:\Users\Arun\AppData\Local\Programs\Python\Python39\)
+it will create a file like (get-pip.py)
+
+step3: python get-pip.py --> run the like
+
+step4: pip help --> for checking
+
+step5: pip install selenium -->  download the selenium through pip like 
+
+step6: choco install chromedriver --> download the chrome driver through chocolatry  
+
+windows automation
+******************
+step7: pip install pyautogui --> for windows automation 
+
+
+
+
+python path
+************
+C:\Users\Arun\AppData\Local\Programs\Python\Python39\Scripts\
+
+chrome driver --> C:\ProgramData\chocolatey\lib\chromedriver\tools
+
+sample program
+**************
 from selenium import webdriver
 
 driver = webdriver.Chrome()
